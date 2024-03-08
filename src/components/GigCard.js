@@ -3,8 +3,8 @@ import "./GigCard.css";
 const GigCard = (props) => {
   return (
     <div className="gigCardContainer">
-      <h2>{props.name}</h2>
-      <p>{props.date}</p>
+      <h2 className="cardText">{props.name}</h2>
+      <p className="cardText">{props.date}</p>
       <p>
         <a
           className="ticketLink"

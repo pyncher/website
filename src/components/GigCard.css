@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/minion-pro");
+
 .gigCardContainer {
   border: 2px solid white;
   border-radius: 4px;
@@ -9,6 +11,11 @@
   }
 }
 
+.cardText {
+  font-family: "Minion Pro", sans-serif;
+}
+
 .ticketLink {
   color: white;
+  font-family: "Minion Pro", sans-serif;
 }
