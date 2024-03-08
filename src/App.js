@@ -8,11 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
+        <h1 className="Heading">PYNCHER</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gigs" element={<Gigs />} />
         </Routes>
+        <Navbar />
       </header>
     </div>
   );

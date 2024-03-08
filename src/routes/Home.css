@@ -1,0 +1,14 @@
+.homeImage {
+  width: 400px;
+  padding-bottom: 50px;
+
+  /* Small ass devices */
+  @media only screen and (max-width: 399px) {
+    width: 200px;
+  }
+
+  /* Large devices such as laptops (1024px and up) */
+  @media only screen and (min-width: 64em) {
+    width: 600px;
+  }
+}
