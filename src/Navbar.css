@@ -10,4 +10,16 @@
   display: flex;
   justify-content: space-between;
   width: 220px;
+
+  @media only screen and (min-width: 1000px) {
+    width: 300px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    width: 350px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    width: 400px;
+  }
 }

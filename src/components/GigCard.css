@@ -1,0 +1,14 @@
+.gigCardContainer {
+  border: 2px solid white;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  width: 450px;
+
+  @media only screen and (max-width: 600px) {
+    width: 350px;
+  }
+}
+
+.ticketLink {
+  color: white;
+}
