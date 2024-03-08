@@ -9,6 +9,7 @@
 .navBarContainer {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
   width: 220px;
 
   @media only screen and (min-width: 1000px) {
