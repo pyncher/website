@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter as Router } from "react-router-dom";
-import "./index.css";
 import App from "./App";
+import ScrollToTop from "./ScrollToTop";
 import reportWebVitals from "./reportWebVitals";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
+    <ScrollToTop />
     <App />
   </Router>
 );
