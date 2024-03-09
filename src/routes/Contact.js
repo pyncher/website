@@ -4,7 +4,26 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <React.Fragment>
+      <hr className="breaker" />
       <div className="aboutContainer">
+        <p className="sectionTitle">Contact</p>
+        <p className="contactTitle">Management</p>
+        <p className="contactEmail">management@echochambermusic.co.uk</p>
+        <p className="contactTitle">General Enquiries</p>
+        <p className="contactEmail">pyncherband@gmail.com</p>
+      </div>
+      <hr className="breaker" />
+      <div className="aboutContainer">
+        <p className="sectionTitle">About</p>
+        <p className="aboutText">
+          Pyncher was formed in 2020 by Sam Blakeley (lead vocals, guitar),
+          Harvey O’Toole (guitar), Jack Rainbow (drums) and Britt Dewhurst
+          (bass) in Manchester, England.
+        </p>
+      </div>
+      <hr className="breaker" />
+      <div className="aboutContainer" style={{ marginBottom: "50px" }}>
+        <p className="sectionTitle">Press</p>
         <p className="aboutText">
           Pyncher are the very best of the Manchester underground, moody and
           playful post punk that's begun to delight ears nationwide. This radio
@@ -15,12 +34,6 @@ const Contact = () => {
           name for themselves in London as well, after being invited by Damien
           Hirst to play The Troubador. - Reece Ritchie, Night and Day.
         </p>
-      </div>
-      <div className="aboutContainer" style={{ marginBottom: "50px" }}>
-        <p className="contactTitle">Management</p>
-        <p className="contactEmail">management@echochambermusic.co.uk</p>
-        <p className="contactTitle">General Enquiries</p>
-        <p className="contactEmail">pyncherband@gmail.com</p>
       </div>
     </React.Fragment>
   );

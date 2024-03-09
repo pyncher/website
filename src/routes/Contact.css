@@ -29,9 +29,30 @@
   margin-bottom: 5px;
 }
 
+.sectionTitle {
+  font-family: "Minion Pro", sans-serif;
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+}
+
 .contactEmail {
   font-family: "Minion Pro", sans-serif;
   font-size: 24px;
   color: white;
   margin: 0;
+}
+
+.breaker {
+  width: 400px;
+
+  /* Small ass devices */
+  @media only screen and (max-width: 399px) {
+    width: 200px;
+  }
+
+  /* Large devices such as laptops (1024px and up) */
+  @media only screen and (min-width: 64em) {
+    width: 600px;
+  }
 }
