@@ -3,13 +3,14 @@ import Navbar from "./Navbar";
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Live from "./routes/Live";
+import pyncherLogo from "./content/images/pyncherlogo.jpeg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="Heading">PYNCHER</h1>
+        <img className="logoImage" src={pyncherLogo} alt="Pyncher" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
