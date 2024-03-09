@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./routes/Home";
-import Gigs from "./routes/Gigs";
+import Live from "./routes/Live";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <h1 className="Heading">PYNCHER</h1>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/gigs" element={<Gigs />} />
+          <Route path="/live" element={<Live />} />
           <Route
             path="/merch"
             Component={() =>

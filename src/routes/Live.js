@@ -8,8 +8,8 @@ const gigList = gigData.map((gig) => {
   );
 });
 
-const Gigs = () => {
+const Live = () => {
   return <div>{gigList}</div>;
 };
 
-export default Gigs;
+export default Live;
