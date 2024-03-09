@@ -2,7 +2,7 @@
 
 .aboutContainer {
   width: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 
   /* Small ass devices */
   @media only screen and (max-width: 399px) {
@@ -17,5 +17,21 @@
 
 .aboutText {
   font-family: "Minion Pro", sans-serif;
+  font-size: 20px;
   color: white;
+}
+
+.contactTitle {
+  font-family: "Minion Pro", sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contactEmail {
+  font-family: "Minion Pro", sans-serif;
+  font-size: 24px;
+  color: white;
+  margin: 0;
 }

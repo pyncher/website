@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./routes/Home";
-import About from "./routes/About";
+import Contact from "./routes/Contact";
 import Live from "./routes/Live";
 import pyncherLogo from "./content/images/pyncherlogo.jpeg";
 import "./App.css";
@@ -13,7 +13,6 @@ function App() {
         <img className="logoImage" src={pyncherLogo} alt="Pyncher" />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/live" element={<Live />} />
           <Route
             path="/merch"
@@ -21,6 +20,7 @@ function App() {
               window.location.replace("https://pyncher.bigcartel.com")
             }
           />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Navbar />
       </header>
