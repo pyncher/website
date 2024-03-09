@@ -35,7 +35,10 @@ const Contact = () => {
           been gigging for a year, this young band have shot themselves into the
           limelight of the Manchester music scene, and are starting to make a
           name for themselves in London as well, after being invited by Damien
-          Hirst to play The Troubador. - Reece Ritchie, Night and Day.
+          Hirst to play The Troubador. -{" "}
+          <u>
+            <i>Reece Ritchie, Night and Day.</i>
+          </u>
         </p>
       </div>
     </React.Fragment>
