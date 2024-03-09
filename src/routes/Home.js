@@ -6,7 +6,7 @@ const Home = () => {
     <img
       className="homeImage"
       src={pyncherImage}
-      alt="Pyncher the band outside of a bricked building"
+      alt="Pyncher the band sitting on the floor of a corridor"
     />
   );
 };
