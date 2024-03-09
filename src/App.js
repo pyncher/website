@@ -14,12 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/live" element={<Live />} />
-          <Route
-            path="/merch"
-            Component={() =>
-              window.location.replace("https://pyncher.bigcartel.com")
-            }
-          />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Navbar />

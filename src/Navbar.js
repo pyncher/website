@@ -10,9 +10,14 @@ const Navbar = () => {
       <Link className="navBarLink" to="/live">
         Live
       </Link>
-      <Link className="navBarLink" to="/merch">
+      <a
+        className="navBarLink"
+        href="https://pyncher.bigcartel.com"
+        target="_blank"
+        rel="noreferrer"
+      >
         Merch
-      </Link>
+      </a>
       <Link className="navBarLink" to="/contact">
         Contact
       </Link>

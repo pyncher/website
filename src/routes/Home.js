@@ -1,4 +1,4 @@
-import pyncherImage from "../content/images/pyncher.jpeg";
+import pyncherImage from "../content/images/pyncher.jpg";
 import "./Home.css";
 
 const Home = () => {

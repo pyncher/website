@@ -6,25 +6,6 @@ const Contact = () => {
     <React.Fragment>
       <hr className="breaker" />
       <div className="aboutContainer">
-        <p className="sectionTitle">Contact</p>
-        <p className="contactTitle">Management</p>
-        <a
-          href="mailto:management@echochambermusic.co.uk"
-          style={{ textDecoration: "none" }}
-        >
-          <p className="contactEmail">management@echochambermusic.co.uk</p>
-        </a>
-        <p className="contactTitle">General Enquiries</p>
-        <a
-          href="mailto:pyncherband@gmail.com"
-          style={{ textDecoration: "none" }}
-        >
-          <p className="contactEmail">pyncherband@gmail.com</p>
-        </a>
-      </div>
-      <hr className="breaker" />
-      <div className="aboutContainer">
-        <p className="sectionTitle">About</p>
         <p className="aboutText">
           Pyncher was formed in 2020 by Sam Blakeley (lead vocals, guitar),
           Harvey O’Toole (guitar), Jack Rainbow (drums) and Britt Dewhurst
@@ -36,20 +17,22 @@ const Contact = () => {
       </div>
       <hr className="breaker" />
       <div className="aboutContainer" style={{ marginBottom: "50px" }}>
-        <p className="sectionTitle">Press</p>
-        <p className="aboutText">
-          Pyncher are the very best of the Manchester underground, moody and
-          playful post punk that's begun to delight ears nationwide. This radio
-          6 featured outfit brings to life Ennio Morricone riffs and twangs with
-          their new EP Chew receiving praise from NME and beyond. Having only
-          been gigging for a year, this young band have shot themselves into the
-          limelight of the Manchester music scene, and are starting to make a
-          name for themselves in London as well, after being invited by Damien
-          Hirst to play The Troubador. -{" "}
-          <u>
-            <i>Reece Ritchie, Night and Day.</i>
-          </u>
+        <p className="contactTitle">Management</p>
+        <p className="contactEmail">
+          <a
+            href="mailto:management@echochambermusic.co.uk"
+            className="emailLink"
+          >
+            management@echochambermusic.co.uk
+          </a>
         </p>
+        <p className="contactTitle">General Enquiries</p>
+        <a
+          href="mailto:pyncherband@gmail.com"
+          style={{ textDecoration: "none" }}
+        >
+          <p className="contactEmail">pyncherband@gmail.com</p>
+        </a>
       </div>
     </React.Fragment>
   );
