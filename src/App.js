@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./routes/Home";
+import About from "./routes/About";
 import Live from "./routes/Live";
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
         <h1 className="Heading">PYNCHER</h1>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/live" element={<Live />} />
           <Route
             path="/merch"

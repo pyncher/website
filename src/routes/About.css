@@ -1,0 +1,21 @@
+@import url("https://fonts.cdnfonts.com/css/minion-pro");
+
+.aboutContainer {
+  width: 400px;
+  margin-bottom: 50px;
+
+  /* Small ass devices */
+  @media only screen and (max-width: 399px) {
+    width: 200px;
+  }
+
+  /* Large devices such as laptops (1024px and up) */
+  @media only screen and (min-width: 64em) {
+    width: 600px;
+  }
+}
+
+.aboutText {
+  font-family: "Minion Pro", sans-serif;
+  color: white;
+}
