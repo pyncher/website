@@ -8,9 +8,19 @@ const Contact = () => {
       <div className="aboutContainer">
         <p className="sectionTitle">Contact</p>
         <p className="contactTitle">Management</p>
-        <p className="contactEmail">management@echochambermusic.co.uk</p>
+        <a
+          href="mailto:management@echochambermusic.co.uk"
+          style={{ textDecoration: "none" }}
+        >
+          <p className="contactEmail">management@echochambermusic.co.uk</p>
+        </a>
         <p className="contactTitle">General Enquiries</p>
-        <p className="contactEmail">pyncherband@gmail.com</p>
+        <a
+          href="mailto:pyncherband@gmail.com"
+          style={{ textDecoration: "none" }}
+        >
+          <p className="contactEmail">pyncherband@gmail.com</p>
+        </a>
       </div>
       <hr className="breaker" />
       <div className="aboutContainer">
