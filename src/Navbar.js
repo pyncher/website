@@ -20,7 +20,7 @@ const Navbar = () => {
         target="_blank"
         rel="noreferrer"
       >
-        Merch
+        Shop
       </a>
     </div>
   );
