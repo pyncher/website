@@ -19,15 +19,27 @@
 .cardText {
   font-family: "Minion Pro", sans-serif;
   font-size: 20px;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 18px;
+  }
 }
 
 .cardName {
   font-family: "Minion Pro", sans-serif;
   font-size: 24px;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 20px;
+  }
 }
 
 .ticketLink {
   color: white;
   font-family: "Minion Pro", sans-serif;
   font-size: 20px;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 18px;
+  }
 }
