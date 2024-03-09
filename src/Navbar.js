@@ -1,15 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const location = useLocation();
+  const routes = ["/", "/live", "/contact"];
+  const routesToRender = routes.filter((route) => route !== location.pathname);
   return (
     <div className="navBarContainer">
-      <Link className="navBarLink" to="/">
-        Home
-      </Link>
-      <Link className="navBarLink" to="/live">
-        Live
-      </Link>
+      {routesToRender.map((route) => (
+        <Link className="navBarLink" to={route}>
+          {route === "/"
+            ? "Home"
+            : route.substring(1).charAt(0).toUpperCase() + route.slice(2)}
+        </Link>
+      ))}
       <a
         className="navBarLink"
         href="https://pyncher.bigcartel.com"
@@ -18,9 +22,6 @@ const Navbar = () => {
       >
         Merch
       </a>
-      <Link className="navBarLink" to="/contact">
-        Contact
-      </Link>
     </div>
   );
 };
