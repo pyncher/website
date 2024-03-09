@@ -1,4 +1,4 @@
-import pyncherImage from "./pyncher.jpeg";
+import pyncherImage from "../content/images/pyncher.jpeg";
 import "./Home.css";
 
 const Home = () => {
@@ -6,7 +6,7 @@ const Home = () => {
     <img
       className="homeImage"
       src={pyncherImage}
-      alt="Pyncher the band sitting on a sofa"
+      alt="Pyncher the band outside of a bricked building"
     />
   );
 };

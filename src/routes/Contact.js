@@ -18,7 +18,10 @@ const Contact = () => {
         <p className="aboutText">
           Pyncher was formed in 2020 by Sam Blakeley (lead vocals, guitar),
           Harvey O’Toole (guitar), Jack Rainbow (drums) and Britt Dewhurst
-          (bass) in Manchester, England.
+          (bass) in Manchester, England. Known for their lively performances and
+          distinctive sound, Still Listening Magazine explains pyncher are
+          “manoeuvring to stardom”. The young quartet have attracted the
+          attention of NME, Damien Hirst, BBC Radio and beyond.
         </p>
       </div>
       <hr className="breaker" />
