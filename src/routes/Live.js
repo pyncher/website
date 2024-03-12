@@ -1,10 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import GigCard from "../components/GigCard";
 import gigData from "../content/gigs.json";
 
 const gigList = gigData.map((gig) => {
   return (
-    <GigCard name={gig.name} date={gig.date} ticketLink={gig.ticketLink} />
+    <React.Fragment>
+      <Helmet>
+        <title>Live | Pyncher</title>
+      </Helmet>
+      <GigCard name={gig.name} date={gig.date} ticketLink={gig.ticketLink} />
+    </React.Fragment>
   );
 });
 

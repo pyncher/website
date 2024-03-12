@@ -1,9 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./Contact.css";
 
 const Contact = () => {
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Contact | Pyncher</title>
+      </Helmet>
       <hr className="breaker" />
       <div className="aboutContainer">
         <p className="aboutText">
