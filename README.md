@@ -14,4 +14,4 @@ You may also see any lint errors in the console.
 
 ### `npm deploy`
 
-Deploys the app to GitHub Pages - *note:* there is an action set up to deploy on push to main branch.
+Deploys the app to GitHub Pages - **note:** there is an action set up to deploy on push to main branch.
