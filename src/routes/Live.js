@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import GigCard from "../components/GigCard";
+import GigCard from "../components/GigCard/GigCard";
 import gigData from "../content/gigs.json";
 
 const gigList = gigData.map((gig) => {
