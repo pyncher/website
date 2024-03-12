@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/minion-pro");
+
+.ticketLink {
+    font-family: "Minion Pro", sans-serif;
+    color: white;
+    margin-bottom: 18px;
+    font-size: 18px;
+    text-underline-offset: 4px;
+}

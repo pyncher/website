@@ -1,6 +1,5 @@
 .homeImage {
   width: 350px;
-  padding-bottom: 50px;
 
   /* Small ass devices */
   @media only screen and (max-width: 399px) {

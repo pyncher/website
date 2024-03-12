@@ -8,7 +8,6 @@ const Contact = () => {
       <Helmet>
         <title>Contact | Pyncher</title>
       </Helmet>
-      <hr className="breaker" />
       <div className="aboutContainer">
         <p className="aboutText">
           Pyncher was formed in 2020 by Sam Blakeley (lead vocals, guitar),
@@ -19,8 +18,7 @@ const Contact = () => {
           attention of NME, Damien Hirst, BBC Radio and beyond.
         </p>
       </div>
-      <hr className="breaker" />
-      <div className="aboutContainer" style={{ marginBottom: "50px" }}>
+      <div className="aboutContainer">
         <p className="contactTitle">Management</p>
         <p className="contactEmail">
           <a
