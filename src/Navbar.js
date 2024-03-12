@@ -6,7 +6,6 @@ import {
   faSpotify,
   faYoutube,
   faApple,
-  faTiktok,
   faBandcamp,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Navbar.css";
@@ -74,14 +73,6 @@ const Navbar = () => {
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faApple} />
-        </a>
-        <a
-          className="svgLink"
-          href="https://www.tiktok.com/@pyncheruk"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTiktok} />
         </a>
         <a
           className="svgLink"
