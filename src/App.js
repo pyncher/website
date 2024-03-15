@@ -9,15 +9,19 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <img className="logoImage" src={pyncherLogo} alt="Pyncher" />
+      </header>
+      <main className="mainContent">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/live" element={<Live />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+      </main>
+      <nav>
         <Navbar />
-      </header>
+      </nav>
     </div>
   );
 }
