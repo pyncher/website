@@ -71,7 +71,6 @@ const Contact = () => {
                     class="required email"
                     id="mce-EMAIL"
                     required=""
-                    value=""
                   />
                   <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                 </div>
@@ -95,7 +94,6 @@ const Contact = () => {
                     type="text"
                     name="b_a929ed1ac72ec432588d4435a_0e20dd497c"
                     tabindex="-1"
-                    value=""
                   />
                 </div>
                 <div class="optionalParent">
