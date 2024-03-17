@@ -104,6 +104,7 @@ const Contact = () => {
                       id="mc-embedded-subscribe"
                       class="button"
                       value="Subscribe"
+                      style={{backgroundColor: "white", color: "black"}}
                     />
                     <p style={{ margin: "0px auto" }}>
                       <a
