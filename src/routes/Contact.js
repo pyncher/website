@@ -37,7 +37,8 @@ const Contact = () => {
           <p className="contactEmail">pyncherband@gmail.com</p>
         </a>
       </div>
-      <div className="aboutContainer">
+      <div className="aboutContainer" style={{fontFamily: `"Minion Pro", sans-serif`, marginTop: "20px"}}>
+        <p className="contactTitle">Newsletter Sign up</p>
         <div id="mc_embed_shell">
           <link
             href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
@@ -46,7 +47,7 @@ const Contact = () => {
           />
           <style type="text/css">
             background:#fff; false;clear:left; font:14px
-            Helvetica,Arial,sans-serif; width: 500px;
+            width: 500px;
           </style>
           <div id="mc_embed_signup">
             <form
@@ -58,11 +59,11 @@ const Contact = () => {
               target="_blank"
             >
               <div id="mc_embed_signup_scroll">
-                <div class="indicates-required">
+                <div class="indicates-required" style={{fontSize: "14px"}}>
                   <span class="asterisk">*</span> indicates required
                 </div>
                 <div class="mc-field-group">
-                  <label for="mce-EMAIL">
+                  <label for="mce-EMAIL" style={{fontSize: "20px"}}>
                     Email Address <span class="asterisk">*</span>
                   </label>
                   <input
@@ -74,7 +75,7 @@ const Contact = () => {
                   />
                   <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div id="mce-responses" class="clear foot">
+                <div id="mce-responses" class="clear foot" style={{fontSize: "20px"}}>
                   <div
                     class="response"
                     id="mce-error-response"
@@ -104,7 +105,7 @@ const Contact = () => {
                       id="mc-embedded-subscribe"
                       class="button"
                       value="Subscribe"
-                      style={{backgroundColor: "white", color: "black"}}
+                      style={{backgroundColor: "white", color: "black", fontFamily: `"Minion Pro", sans-serif`}}
                     />
                     <p style={{ margin: "0px auto" }}>
                       <a
