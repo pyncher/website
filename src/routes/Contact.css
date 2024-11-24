@@ -49,6 +49,10 @@
   color: white;
 }
 
+.emailText {
+  display: inline;
+}
+
 .breaker {
   width: 400px;
 
