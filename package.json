@@ -2,7 +2,7 @@
   "name": "pynchercouk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://georgehanlon.github.io/pynchercouk",
+  "homepage": "https://pyncher.github.io/website/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
