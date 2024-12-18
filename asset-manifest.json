@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pynchercouk/static/css/main.d5e3dc00.css",
-    "main.js": "/pynchercouk/static/js/main.de82a3c1.js",
+    "main.js": "/pynchercouk/static/js/main.fc9da751.js",
     "static/js/453.02bf3452.chunk.js": "/pynchercouk/static/js/453.02bf3452.chunk.js",
     "static/media/pyncher.jpeg": "/pynchercouk/static/media/pyncher.bb252b942565f77290e2.jpeg",
     "static/media/pyncherlogo.jpeg": "/pynchercouk/static/media/pyncherlogo.29451769d808289411bd.jpeg",
     "index.html": "/pynchercouk/index.html",
     "main.d5e3dc00.css.map": "/pynchercouk/static/css/main.d5e3dc00.css.map",
-    "main.de82a3c1.js.map": "/pynchercouk/static/js/main.de82a3c1.js.map",
+    "main.fc9da751.js.map": "/pynchercouk/static/js/main.fc9da751.js.map",
     "453.02bf3452.chunk.js.map": "/pynchercouk/static/js/453.02bf3452.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5e3dc00.css",
-    "static/js/main.de82a3c1.js"
+    "static/js/main.fc9da751.js"
   ]
 }
