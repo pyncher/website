@@ -32,6 +32,16 @@ const Contact = () => {
             echochamberpromotions@gmail.com
           </a>
         </p>
+        <p className="contactTitle">Booking Agent</p>
+        <p className="contactEmail">
+          <p className="emailText">Amy Greig: </p>
+          <a
+            href="mailto:amy@runwayartists.com"
+            className="emailLink"
+          >
+            amy@runwayartists.com
+          </a>
+        </p>
         <p className="contactTitle">General Enquiries</p>
         <a
           href="mailto:pyncherband@gmail.com"
