@@ -29,7 +29,9 @@ const Live = () => {
         data-past-events-offtour="off"
         data-remind-me="off"
         style={{ display: "none" }}
-      ></a>
+      >
+        _
+      </a>
       {useScript("//widget-app.songkick.com/injector/10177018")}
     </React.Fragment>
   );
