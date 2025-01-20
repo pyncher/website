@@ -5,7 +5,7 @@ import "./Live.css";
 
 const Live = () => {
   return (
-    <React.Fragment>
+    <div>
       <Helmet>
         <title>Live | Pyncher</title>
       </Helmet>
@@ -33,7 +33,7 @@ const Live = () => {
         _
       </a>
       {useScript("//widget-app.songkick.com/injector/10177018")}
-    </React.Fragment>
+    </div>
   );
 };
 
